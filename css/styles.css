@@ -57,7 +57,6 @@
     margin-bottom: .4rem;
     overflow: hidden;
     display: flex;
-    justify-content: center;
     align-items: center;
     transition: background .3s ease-in-out, color .3s ease-in-out;
     cursor: pointer;
@@ -69,4 +68,42 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.card__icon--title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card__icon--fb{
+    color: #2c5eff;
+    border: 1px solid #2c5eff;
+}
+
+.card__icon--fb:hover{
+    background: #2c5eff;
+    color: white;
+}
+
+.card__icon--ig{
+    color: #773fe7;
+    border: 1px solid #773fe7;
+}
+
+.card__icon--ig:hover{
+    background: #773fe7;
+    color: white;
+}
+
+.card__icon--db{
+    color: #f962b1;
+    border: 1px solid #f962b1;
+}
+
+.card__icon--db:hover{
+    background: #f962b1;
+    color: white;
 }
